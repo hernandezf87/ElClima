@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF19857923F2576E00D2F8F9 /* daytimescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = DF19857823F2576E00D2F8F9 /* daytimescreen.png */; };
+		DF19857B23F2578500D2F8F9 /* nightimescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = DF19857A23F2578500D2F8F9 /* nightimescreen.png */; };
+		DF19857F23F25A8900D2F8F9 /* nightimescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = DF19857D23F25A8900D2F8F9 /* nightimescreen.png */; };
+		DF19858023F25A8900D2F8F9 /* daytimescreen.png in Resources */ = {isa = PBXBuildFile; fileRef = DF19857E23F25A8900D2F8F9 /* daytimescreen.png */; };
 		DF26F61A23D27F4E00A504B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26F61923D27F4E00A504B6 /* AppDelegate.swift */; };
 		DF26F61C23D27F4E00A504B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26F61B23D27F4E00A504B6 /* SceneDelegate.swift */; };
 		DF26F61E23D27F4E00A504B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26F61D23D27F4E00A504B6 /* ViewController.swift */; };
@@ -21,6 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF19857823F2576E00D2F8F9 /* daytimescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = daytimescreen.png; path = ../../../../daytimescreen.png; sourceTree = "<group>"; };
+		DF19857A23F2578500D2F8F9 /* nightimescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nightimescreen.png; path = ../../../../nightimescreen.png; sourceTree = "<group>"; };
+		DF19857D23F25A8900D2F8F9 /* nightimescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nightimescreen.png; sourceTree = "<group>"; };
+		DF19857E23F25A8900D2F8F9 /* daytimescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daytimescreen.png; sourceTree = "<group>"; };
+		DF19858123F25A8D00D2F8F9 /* daytimescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = daytimescreen.png; path = ../../../../../daytimescreen.png; sourceTree = "<group>"; };
+		DF19858223F25A9000D2F8F9 /* nightimescreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nightimescreen.png; path = ../../../../../nightimescreen.png; sourceTree = "<group>"; };
 		DF26F61623D27F4E00A504B6 /* ElClima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElClima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF26F61923D27F4E00A504B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF26F61B23D27F4E00A504B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF19857C23F25A8900D2F8F9 /* myFolder */ = {
+			isa = PBXGroup;
+			children = (
+				DF19858223F25A9000D2F8F9 /* nightimescreen.png */,
+				DF19858123F25A8D00D2F8F9 /* daytimescreen.png */,
+				DF19857D23F25A8900D2F8F9 /* nightimescreen.png */,
+				DF19857E23F25A8900D2F8F9 /* daytimescreen.png */,
+			);
+			path = myFolder;
+			sourceTree = "<group>";
+		};
 		DF26F60D23D27F4E00A504B6 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +94,9 @@
 				DF26F61F23D27F4E00A504B6 /* Main.storyboard */,
 				DF26F62F23D27F9A00A504B6 /* Controller */,
 				DF26F62223D27F4F00A504B6 /* Assets.xcassets */,
+				DF19857A23F2578500D2F8F9 /* nightimescreen.png */,
+				DF19857823F2576E00D2F8F9 /* daytimescreen.png */,
+				DF19857C23F25A8900D2F8F9 /* myFolder */,
 				DF26F62423D27F4F00A504B6 /* LaunchScreen.storyboard */,
 				DF26F62723D27F4F00A504B6 /* Info.plist */,
 				DF26F63023D280BE00A504B6 /* dark_background.pdf */,
@@ -166,9 +190,13 @@
 			files = (
 				DF26F63323D280C400A504B6 /* light_background.pdf in Resources */,
 				DF26F63123D280BE00A504B6 /* dark_background.pdf in Resources */,
+				DF19857F23F25A8900D2F8F9 /* nightimescreen.png in Resources */,
 				DF26F62623D27F4F00A504B6 /* LaunchScreen.storyboard in Resources */,
 				DF26F62323D27F4F00A504B6 /* Assets.xcassets in Resources */,
 				DF26F62123D27F4E00A504B6 /* Main.storyboard in Resources */,
+				DF19857B23F2578500D2F8F9 /* nightimescreen.png in Resources */,
+				DF19857923F2576E00D2F8F9 /* daytimescreen.png in Resources */,
+				DF19858023F25A8900D2F8F9 /* daytimescreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
